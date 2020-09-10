@@ -1,0 +1,6 @@
+#FileLock
+#Thu Sep 10 17:55:17 KST 2020
+hostName=SKCC17N01049.SKCC.NET
+id=1747739de0652c0f347a4ed7434ada8d05c00a4f999
+method=file
+server=192.168.25.11\:65525

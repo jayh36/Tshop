@@ -1,0 +1,12 @@
+Tshop\AbstractEvent$1.class
+Tshop\ProductApplication.class
+Tshop\ProductRepository.class
+Tshop\ProductController.class
+Tshop\QuantityChanged.class
+Tshop\AbstractEvent.class
+Tshop\ReservationCanceled.class
+Tshop\ProductService.class
+Tshop\QuantityChecked.class
+Tshop\Product.class
+Tshop\config\kafka\KafkaProcessor.class
+Tshop\PolicyHandler.class
