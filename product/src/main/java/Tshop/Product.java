@@ -16,17 +16,17 @@ public class Product {
 
     @PostUpdate
     public void pulishQuantityChecked(){
-        QuantityChecked quantityChecked = new QuantityChecked();
-        BeanUtils.copyProperties(this, quantityChecked);
-        quantityChecked.publishAfterCommit();
-    }
-
-    @PrePersist
-    public void onPrePersist(){
         QuantityChanged quantityChanged = new QuantityChanged();
         BeanUtils.copyProperties(this, quantityChanged);
         quantityChanged.publishAfterCommit();
     }
+
+/*    @PrePersist
+    public void onPrePersist(){
+        QuantityChanged quantityChanged = new QuantityChanged();
+        BeanUtils.copyProperties(this, quantityChanged);
+        quantityChanged.publishAfterCommit();
+    }*/
 
     public Long getProductId() {
         return productId;

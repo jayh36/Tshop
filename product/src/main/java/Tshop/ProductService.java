@@ -26,7 +26,7 @@ public class ProductService {
         if( product.getQuantity() > 0 ){
             product.setQuantity(product.getQuantity()-1);
             productRepository.save(product);
-            product.pulishQuantityChecked();
+            //product.pulishQuantityChecked();
         }
         return product.getQuantity().toString() ;
     }
