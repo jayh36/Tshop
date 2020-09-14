@@ -1,6 +1,6 @@
 #FileLock
-#Fri Sep 11 09:46:05 KST 2020
-hostName=SKCC17N01049.SKCC.NET
-id=1747aa059f8b9e9dda5e66274ddc9ef2fd357f374b2
+#Mon Sep 14 14:37:17 KST 2020
+hostName=host.docker.internal
+id=1748b1e06060f31fa7841c484be4c7303fcfb1ce3a1
 method=file
-server=192.168.25.11\:50870
+server=192.168.25.11\:62306

@@ -29,7 +29,7 @@ public class PolicyHandler{
             Optional<Reservation> optionalReservation = reservationRepository.findById(reservationAccepted.getReservationId());
             Reservation reservation = optionalReservation.orElseGet(Reservation::new);
             //Reservation reservation = new Reservation() ;
-            reservation.setStatus("예약접수완료");
+            reservation.setStatus(reservationAccepted.getStatus());
             reservationRepository.save(reservation);
         }
     }
@@ -43,7 +43,7 @@ public class PolicyHandler{
             Reservation reservation = optionalReservation.orElseGet(Reservation::new);
             //Reservation reservation = new Reservation() ;
             reservation.setReservationId(reservationCanceled.getReservationId());
-            reservation.setStatus("예약취소완료");
+            reservation.setStatus(reservationCanceled.getStatus());
             reservationRepository.save(reservation);
         }
     }

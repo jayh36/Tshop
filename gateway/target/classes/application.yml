@@ -20,6 +20,10 @@ spring:
           uri: http://localhost:8083
           predicates:
             - Path=/products/**,/db_product/**
+        - id: customercenter
+          uri: http://localhost:8084
+          predicates:
+            - Path= /reservationpages/**
       globalcors:
         corsConfigurations:
           '[/**]':
@@ -50,7 +54,11 @@ spring:
         - id: product
           uri: http://product:8080
           predicates:
-            - Path=/products/** 
+            - Path=/products/**
+        - id: customercenter
+          uri: http://reservationpage:8080
+          predicates:
+            - Path=/reservationpages/**
       globalcors:
         corsConfigurations:
           '[/**]':

@@ -10,12 +10,15 @@
         <module name="reservation" />
         <module name="product" />
         <module name="boot-camp-gateway" />
+        <module name="customercenter" />
         <module name="assignment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="assignment" target="1.8" />
+      <module name="assignment (1)" target="1.8" />
       <module name="boot-camp-gateway" target="1.8" />
+      <module name="customercenter" target="1.8" />
       <module name="product" target="1.8" />
       <module name="reservation" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,7 +26,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="assignment" options="-parameters" />
+      <module name="assignment (1)" options="-parameters" />
       <module name="boot-camp-gateway" options="-parameters" />
+      <module name="customercenter" options="-parameters" />
       <module name="product" options="-parameters" />
       <module name="reservation" options="-parameters" />
     </option>

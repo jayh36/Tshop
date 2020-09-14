@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Tshop.iml" filepath="$PROJECT_DIR$/.idea/Tshop.iml" />
       <module fileurl="file://$PROJECT_DIR$/assignment/assignment.iml" filepath="$PROJECT_DIR$/assignment/assignment.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/boot-camp-gateway.iml" filepath="$PROJECT_DIR$/gateway/boot-camp-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customercenter/customercenter.iml" filepath="$PROJECT_DIR$/customercenter/customercenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" />
       <module fileurl="file://$PROJECT_DIR$/reservation/reservation.iml" filepath="$PROJECT_DIR$/reservation/reservation.iml" />
     </modules>
